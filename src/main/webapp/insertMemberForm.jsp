@@ -58,7 +58,7 @@
 			if(request.getParameter("msg")!= null)
 			{
 		%>
-				<span style="float:left;" ><span style="color:red">경고! </span><%=request.getParameter("msg") %></span>
+				<span style="float:left;" style="color:red"> 경고! </span> <span><%=request.getParameter("msg") %></span>
 		<%		
 			}
 		%>
